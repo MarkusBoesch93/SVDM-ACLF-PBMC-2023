@@ -1,0 +1,596 @@
+hsa00010	Glycolysis / Gluconeogenesis	3101	HK3
+hsa00010	Glycolysis / Gluconeogenesis	5223	PGAM1
+hsa00010	Glycolysis / Gluconeogenesis	2023	ENO1
+hsa00010	Glycolysis / Gluconeogenesis	5315	PKM
+hsa00010	Glycolysis / Gluconeogenesis	5230	PGK1
+hsa00010	Glycolysis / Gluconeogenesis	3098	HK1
+hsa00010	Glycolysis / Gluconeogenesis	7167	TPI1
+hsa00010	Glycolysis / Gluconeogenesis	2597	GAPDH
+hsa00010	Glycolysis / Gluconeogenesis	5211	PFKL
+hsa00010	Glycolysis / Gluconeogenesis	3939	LDHA
+hsa00010	Glycolysis / Gluconeogenesis	226	ALDOA
+hsa00010	Glycolysis / Gluconeogenesis	3945	LDHB
+hsa00010	Glycolysis / Gluconeogenesis	221	ALDH3B1
+hsa00010	Glycolysis / Gluconeogenesis	217	ALDH2
+hsa00020	Citrate cycle (TCA cycle)	3418	IDH2
+hsa00020	Citrate cycle (TCA cycle)	6392	SDHD
+hsa00020	Citrate cycle (TCA cycle)	4191	MDH2
+hsa00030	Pentose phosphate pathway	7086	TKT
+hsa00030	Pentose phosphate pathway	5226	PGD
+hsa00030	Pentose phosphate pathway	6888	TALDO1
+hsa00030	Pentose phosphate pathway	5211	PFKL
+hsa00030	Pentose phosphate pathway	9563	H6PD
+hsa00030	Pentose phosphate pathway	226	ALDOA
+hsa00061	Fatty acid biosynthesis	4706	NDUFAB1
+hsa00061	Fatty acid biosynthesis	2182	ACSL4
+hsa00061	Fatty acid biosynthesis	2180	ACSL1
+hsa00061	Fatty acid biosynthesis	51703	ACSL5
+hsa00062	Fatty acid elongation	9524	TECR
+hsa00062	Fatty acid elongation	401494	HACD4
+hsa00062	Fatty acid elongation	3030	HADHA
+hsa00071	Fatty acid degradation	217	ALDH2
+hsa00071	Fatty acid degradation	3030	HADHA
+hsa00071	Fatty acid degradation	51703	ACSL5
+hsa00071	Fatty acid degradation	2182	ACSL4
+hsa00071	Fatty acid degradation	2180	ACSL1
+hsa00071	Fatty acid degradation	1632	ECI1
+hsa00071	Fatty acid degradation	1374	CPT1A
+hsa00190	Oxidative phosphorylation	4713	NDUFB7
+hsa00190	Oxidative phosphorylation	4714	NDUFB8
+hsa00190	Oxidative phosphorylation	4715	NDUFB9
+hsa00190	Oxidative phosphorylation	4706	NDUFAB1
+hsa00190	Oxidative phosphorylation	126328	NDUFA11
+hsa00190	Oxidative phosphorylation	8992	ATP6V0E1
+hsa00190	Oxidative phosphorylation	4712	NDUFB6
+hsa00190	Oxidative phosphorylation	1349	COX7B
+hsa00190	Oxidative phosphorylation	54539	NDUFB11
+hsa00190	Oxidative phosphorylation	4717	NDUFC1
+hsa00190	Oxidative phosphorylation	4718	NDUFC2
+hsa00190	Oxidative phosphorylation	5464	PPA1
+hsa00190	Oxidative phosphorylation	1350	COX7C
+hsa00190	Oxidative phosphorylation	4726	NDUFS6
+hsa00190	Oxidative phosphorylation	374291	NDUFS7
+hsa00190	Oxidative phosphorylation	4694	NDUFA1
+hsa00190	Oxidative phosphorylation	4695	NDUFA2
+hsa00190	Oxidative phosphorylation	4696	NDUFA3
+hsa00190	Oxidative phosphorylation	4697	NDUFA4
+hsa00190	Oxidative phosphorylation	4700	NDUFA6
+hsa00190	Oxidative phosphorylation	1327	COX4I1
+hsa00190	Oxidative phosphorylation	9377	COX5A
+hsa00190	Oxidative phosphorylation	1329	COX5B
+hsa00190	Oxidative phosphorylation	1337	COX6A1
+hsa00190	Oxidative phosphorylation	55967	NDUFA12
+hsa00190	Oxidative phosphorylation	51079	NDUFA13
+hsa00190	Oxidative phosphorylation	1345	COX6C
+hsa00190	Oxidative phosphorylation	1347	COX7A2
+hsa00190	Oxidative phosphorylation	9167	COX7A2L
+hsa00190	Oxidative phosphorylation	527	ATP6V0C
+hsa00190	Oxidative phosphorylation	1351	COX8A
+hsa00190	Oxidative phosphorylation	10063	COX17
+hsa00190	Oxidative phosphorylation	498	ATP5F1A
+hsa00190	Oxidative phosphorylation	506	ATP5F1B
+hsa00190	Oxidative phosphorylation	509	ATP5F1C
+hsa00190	Oxidative phosphorylation	6392	SDHD
+hsa00190	Oxidative phosphorylation	7386	UQCRFS1
+hsa00190	Oxidative phosphorylation	4728	NDUFS8
+hsa00190	Oxidative phosphorylation	4729	NDUFV2
+hsa00190	Oxidative phosphorylation	27089	UQCRQ
+hsa00190	Oxidative phosphorylation	29796	UQCR10
+hsa00190	Oxidative phosphorylation	10975	UQCR11
+hsa00190	Oxidative phosphorylation	526	ATP6V1B2
+hsa00190	Oxidative phosphorylation	1340	COX6B1
+hsa00190	Oxidative phosphorylation	10312	TCIRG1
+hsa00190	Oxidative phosphorylation	4710	NDUFB4
+hsa00190	Oxidative phosphorylation	4725	NDUFS5
+hsa00190	Oxidative phosphorylation	7388	UQCRH
+hsa00190	Oxidative phosphorylation	7381	UQCRB
+hsa00190	Oxidative phosphorylation	518	ATP5MC3
+hsa00190	Oxidative phosphorylation	10476	ATP5PD
+hsa00190	Oxidative phosphorylation	521	ATP5ME
+hsa00190	Oxidative phosphorylation	9551	ATP5MF
+hsa00190	Oxidative phosphorylation	10632	ATP5MG
+hsa00190	Oxidative phosphorylation	522	ATP5PF
+hsa00190	Oxidative phosphorylation	513	ATP5F1D
+hsa00190	Oxidative phosphorylation	514	ATP5F1E
+hsa00190	Oxidative phosphorylation	539	ATP5PO
+hsa00190	Oxidative phosphorylation	515	ATP5PB
+hsa00190	Oxidative phosphorylation	516	ATP5MC1
+hsa00190	Oxidative phosphorylation	9296	ATP6V1F
+hsa00190	Oxidative phosphorylation	4707	NDUFB1
+hsa00190	Oxidative phosphorylation	4708	NDUFB2
+hsa00190	Oxidative phosphorylation	4709	NDUFB3
+hsa00190	Oxidative phosphorylation	517	ATP5MC2
+hsa00220	Arginine biosynthesis	2752	GLUL
+hsa00220	Arginine biosynthesis	2744	GLS
+hsa00230	Purine metabolism	353	APRT
+hsa00230	Purine metabolism	30833	NT5C
+hsa00230	Purine metabolism	5315	PKM
+hsa00230	Purine metabolism	51816	ADA2
+hsa00230	Purine metabolism	3615	IMPDH2
+hsa00230	Purine metabolism	5142	PDE4B
+hsa00230	Purine metabolism	5150	PDE7A
+hsa00230	Purine metabolism	9060	PAPSS2
+hsa00230	Purine metabolism	4831	NME2
+hsa00230	Purine metabolism	4832	NME3
+hsa00230	Purine metabolism	953	ENTPD1
+hsa00230	Purine metabolism	9583	ENTPD4
+hsa00230	Purine metabolism	5140	PDE3B
+hsa00240	Pyrimidine metabolism	129607	CMPK2
+hsa00240	Pyrimidine metabolism	953	ENTPD1
+hsa00240	Pyrimidine metabolism	4831	NME2
+hsa00240	Pyrimidine metabolism	4832	NME3
+hsa00240	Pyrimidine metabolism	1890	TYMP
+hsa00240	Pyrimidine metabolism	30833	NT5C
+hsa00240	Pyrimidine metabolism	9583	ENTPD4
+hsa00240	Pyrimidine metabolism	1854	DUT
+hsa00240	Pyrimidine metabolism	7378	UPP1
+hsa00250	Alanine, aspartate and glutamate metabolism	2752	GLUL
+hsa00250	Alanine, aspartate and glutamate metabolism	2744	GLS
+hsa00260	Glycine, serine and threonine metabolism	5223	PGAM1
+hsa00270	Cysteine and methionine metabolism	10768	AHCYL1
+hsa00270	Cysteine and methionine metabolism	4144	MAT2A
+hsa00270	Cysteine and methionine metabolism	6611	SMS
+hsa00270	Cysteine and methionine metabolism	6723	SRM
+hsa00270	Cysteine and methionine metabolism	4191	MDH2
+hsa00270	Cysteine and methionine metabolism	1786	DNMT1
+hsa00270	Cysteine and methionine metabolism	3939	LDHA
+hsa00270	Cysteine and methionine metabolism	3945	LDHB
+hsa00270	Cysteine and methionine metabolism	4548	MTR
+hsa00280	Valine, leucine and isoleucine degradation	3030	HADHA
+hsa00280	Valine, leucine and isoleucine degradation	3712	IVD
+hsa00280	Valine, leucine and isoleucine degradation	217	ALDH2
+hsa00310	Lysine degradation	3030	HADHA
+hsa00310	Lysine degradation	4297	KMT2A
+hsa00310	Lysine degradation	58508	KMT2C
+hsa00310	Lysine degradation	217	ALDH2
+hsa00310	Lysine degradation	29072	SETD2
+hsa00310	Lysine degradation	55904	KMT2E
+hsa00310	Lysine degradation	55870	ASH1L
+hsa00310	Lysine degradation	7799	PRDM2
+hsa00310	Lysine degradation	64324	NSD1
+hsa00310	Lysine degradation	54904	NSD3
+hsa00330	Arginine and proline metabolism	1152	CKB
+hsa00330	Arginine and proline metabolism	51056	LAP3
+hsa00330	Arginine and proline metabolism	217	ALDH2
+hsa00330	Arginine and proline metabolism	6723	SRM
+hsa00330	Arginine and proline metabolism	6611	SMS
+hsa00330	Arginine and proline metabolism	6303	SAT1
+hsa00330	Arginine and proline metabolism	112483	SAT2
+hsa00330	Arginine and proline metabolism	55748	CNDP2
+hsa00340	Histidine metabolism	221	ALDH3B1
+hsa00340	Histidine metabolism	3176	HNMT
+hsa00340	Histidine metabolism	217	ALDH2
+hsa00340	Histidine metabolism	55748	CNDP2
+hsa00350	Tyrosine metabolism	1312	COMT
+hsa00350	Tyrosine metabolism	221	ALDH3B1
+hsa00350	Tyrosine metabolism	4282	MIF
+hsa00360	Phenylalanine metabolism	4282	MIF
+hsa00360	Phenylalanine metabolism	221	ALDH3B1
+hsa00380	Tryptophan metabolism	3030	HADHA
+hsa00380	Tryptophan metabolism	847	CAT
+hsa00380	Tryptophan metabolism	217	ALDH2
+hsa00410	beta-Alanine metabolism	55748	CNDP2
+hsa00410	beta-Alanine metabolism	3030	HADHA
+hsa00410	beta-Alanine metabolism	217	ALDH2
+hsa00410	beta-Alanine metabolism	221	ALDH3B1
+hsa00471	D-Glutamine and D-glutamate metabolism	2744	GLS
+hsa00480	Glutathione metabolism	51056	LAP3
+hsa00480	Glutathione metabolism	2876	GPX1
+hsa00480	Glutathione metabolism	5226	PGD
+hsa00480	Glutathione metabolism	2879	GPX4
+hsa00480	Glutathione metabolism	4259	MGST3
+hsa00480	Glutathione metabolism	6723	SRM
+hsa00480	Glutathione metabolism	6611	SMS
+hsa00480	Glutathione metabolism	4257	MGST1
+hsa00480	Glutathione metabolism	9446	GSTO1
+hsa00480	Glutathione metabolism	3418	IDH2
+hsa00480	Glutathione metabolism	2950	GSTP1
+hsa00480	Glutathione metabolism	373156	GSTK1
+hsa00561	Glycerolipid metabolism	57104	PNPLA2
+hsa00561	Glycerolipid metabolism	217	ALDH2
+hsa00561	Glycerolipid metabolism	56894	AGPAT3
+hsa00561	Glycerolipid metabolism	84513	PLPP5
+hsa00561	Glycerolipid metabolism	1606	DGKA
+hsa00561	Glycerolipid metabolism	8527	DGKD
+hsa00564	Glycerophospholipid metabolism	84513	PLPP5
+hsa00564	Glycerophospholipid metabolism	5130	PCYT1A
+hsa00564	Glycerophospholipid metabolism	10434	LYPLA1
+hsa00564	Glycerophospholipid metabolism	8527	DGKD
+hsa00564	Glycerophospholipid metabolism	1606	DGKA
+hsa00564	Glycerophospholipid metabolism	54947	LPCAT2
+hsa00564	Glycerophospholipid metabolism	79888	LPCAT1
+hsa00564	Glycerophospholipid metabolism	56894	AGPAT3
+hsa00564	Glycerophospholipid metabolism	23646	PLD3
+hsa00564	Glycerophospholipid metabolism	122618	PLD4
+hsa00564	Glycerophospholipid metabolism	9926	LPGAT1
+hsa00565	Ether lipid metabolism	79888	LPCAT1
+hsa00565	Ether lipid metabolism	122618	PLD4
+hsa00565	Ether lipid metabolism	54947	LPCAT2
+hsa00565	Ether lipid metabolism	23646	PLD3
+hsa00590	Arachidonic acid metabolism	5730	PTGDS
+hsa00590	Arachidonic acid metabolism	6916	TBXAS1
+hsa00590	Arachidonic acid metabolism	2876	GPX1
+hsa00590	Arachidonic acid metabolism	4048	LTA4H
+hsa00590	Arachidonic acid metabolism	10728	PTGES3
+hsa00600	Sphingolipid metabolism	427	ASAH1
+hsa00600	Sphingolipid metabolism	5660	PSAP
+hsa00600	Sphingolipid metabolism	64781	CERK
+hsa00600	Sphingolipid metabolism	8560	DEGS1
+hsa00600	Sphingolipid metabolism	7357	UGCG
+hsa00620	Pyruvate metabolism	5315	PKM
+hsa00620	Pyruvate metabolism	217	ALDH2
+hsa00620	Pyruvate metabolism	4191	MDH2
+hsa00620	Pyruvate metabolism	3939	LDHA
+hsa00620	Pyruvate metabolism	3945	LDHB
+hsa01040	Biosynthesis of unsaturated fatty acids	9524	TECR
+hsa01040	Biosynthesis of unsaturated fatty acids	401494	HACD4
+hsa03320	PPAR signaling pathway	1622	DBI
+hsa03320	PPAR signaling pathway	948	CD36
+hsa03320	PPAR signaling pathway	6256	RXRA
+hsa03320	PPAR signaling pathway	1374	CPT1A
+hsa03320	PPAR signaling pathway	2171	FABP5
+hsa03320	PPAR signaling pathway	7316	UBC
+hsa03320	PPAR signaling pathway	2182	ACSL4
+hsa03320	PPAR signaling pathway	2180	ACSL1
+hsa03320	PPAR signaling pathway	51703	ACSL5
+hsa04010	MAPK signaling pathway	5567	PRKACB
+hsa04010	MAPK signaling pathway	5579	PRKCB
+hsa04010	MAPK signaling pathway	5530	PPP3CA
+hsa04010	MAPK signaling pathway	5533	PPP3CC
+hsa04010	MAPK signaling pathway	10125	RASGRP1
+hsa04010	MAPK signaling pathway	10235	RASGRP2
+hsa04010	MAPK signaling pathway	25780	RASGRP3
+hsa04010	MAPK signaling pathway	55799	CACNA2D3
+hsa04010	MAPK signaling pathway	2323	FLT3LG
+hsa04010	MAPK signaling pathway	7423	VEGFB
+hsa04010	MAPK signaling pathway	5606	MAP2K3
+hsa04010	MAPK signaling pathway	2316	FLNA
+hsa04010	MAPK signaling pathway	1436	CSF1R
+hsa04010	MAPK signaling pathway	2322	FLT3
+hsa04010	MAPK signaling pathway	2885	GRB2
+hsa04010	MAPK signaling pathway	6654	SOS1
+hsa04010	MAPK signaling pathway	6655	SOS2
+hsa04010	MAPK signaling pathway	6237	RRAS
+hsa04010	MAPK signaling pathway	5594	MAPK1
+hsa04010	MAPK signaling pathway	2872	MKNK2
+hsa04010	MAPK signaling pathway	6197	RPS6KA3
+hsa04010	MAPK signaling pathway	6195	RPS6KA1
+hsa04010	MAPK signaling pathway	468	ATF4
+hsa04010	MAPK signaling pathway	2005	ELK4
+hsa04010	MAPK signaling pathway	4609	MYC
+hsa04010	MAPK signaling pathway	2353	FOS
+hsa04010	MAPK signaling pathway	3925	STMN1
+hsa04010	MAPK signaling pathway	7124	TNF
+hsa04010	MAPK signaling pathway	3553	IL1B
+hsa04010	MAPK signaling pathway	7040	TGFB1
+hsa04010	MAPK signaling pathway	2069	EREG
+hsa04010	MAPK signaling pathway	374	AREG
+hsa04010	MAPK signaling pathway	1616	DAXX
+hsa04010	MAPK signaling pathway	4616	GADD45B
+hsa04010	MAPK signaling pathway	23118	TAB2
+hsa04010	MAPK signaling pathway	9448	MAP4K4
+hsa04010	MAPK signaling pathway	6789	STK4
+hsa04010	MAPK signaling pathway	1326	MAP3K8
+hsa04010	MAPK signaling pathway	4214	MAP3K1
+hsa04010	MAPK signaling pathway	10746	MAP3K2
+hsa04010	MAPK signaling pathway	4215	MAP3K3
+hsa04010	MAPK signaling pathway	51347	TAOK3
+hsa04010	MAPK signaling pathway	57551	TAOK1
+hsa04010	MAPK signaling pathway	1843	DUSP1
+hsa04010	MAPK signaling pathway	1844	DUSP2
+hsa04010	MAPK signaling pathway	1847	DUSP5
+hsa04010	MAPK signaling pathway	1848	DUSP6
+hsa04010	MAPK signaling pathway	9261	MAPKAPK2
+hsa04010	MAPK signaling pathway	7867	MAPKAPK3
+hsa04010	MAPK signaling pathway	994	CDC25B
+hsa04010	MAPK signaling pathway	3725	JUN
+hsa04010	MAPK signaling pathway	3727	JUND
+hsa04010	MAPK signaling pathway	3315	HSPB1
+hsa04010	MAPK signaling pathway	207	AKT1
+hsa04010	MAPK signaling pathway	5879	RAC1
+hsa04010	MAPK signaling pathway	5880	RAC2
+hsa04010	MAPK signaling pathway	998	CDC42
+hsa04010	MAPK signaling pathway	3312	HSPA8
+hsa04010	MAPK signaling pathway	3303	HSPA1A
+hsa04010	MAPK signaling pathway	5971	RELB
+hsa04010	MAPK signaling pathway	7048	TGFBR2
+hsa04010	MAPK signaling pathway	929	CD14
+hsa04010	MAPK signaling pathway	3551	IKBKB
+hsa04022	cGMP-PKG signaling pathway	490	ATP2B1
+hsa04022	cGMP-PKG signaling pathway	493	ATP2B4
+hsa04022	cGMP-PKG signaling pathway	5997	RGS2
+hsa04022	cGMP-PKG signaling pathway	4773	NFATC2
+hsa04022	cGMP-PKG signaling pathway	483	ATP1B3
+hsa04022	cGMP-PKG signaling pathway	476	ATP1A1
+hsa04022	cGMP-PKG signaling pathway	2969	GTF2I
+hsa04022	cGMP-PKG signaling pathway	387	RHOA
+hsa04022	cGMP-PKG signaling pathway	6093	ROCK1
+hsa04022	cGMP-PKG signaling pathway	9475	ROCK2
+hsa04022	cGMP-PKG signaling pathway	4659	PPP1R12A
+hsa04022	cGMP-PKG signaling pathway	5499	PPP1CA
+hsa04022	cGMP-PKG signaling pathway	5500	PPP1CB
+hsa04022	cGMP-PKG signaling pathway	805	CALM2
+hsa04022	cGMP-PKG signaling pathway	808	CALM3
+hsa04022	cGMP-PKG signaling pathway	5530	PPP3CA
+hsa04022	cGMP-PKG signaling pathway	5533	PPP3CC
+hsa04022	cGMP-PKG signaling pathway	7416	VDAC1
+hsa04022	cGMP-PKG signaling pathway	292	SLC25A5
+hsa04022	cGMP-PKG signaling pathway	5140	PDE3B
+hsa04022	cGMP-PKG signaling pathway	2771	GNAI2
+hsa04022	cGMP-PKG signaling pathway	207	AKT1
+hsa04022	cGMP-PKG signaling pathway	293	SLC25A6
+hsa04022	cGMP-PKG signaling pathway	468	ATF4
+hsa04022	cGMP-PKG signaling pathway	8660	IRS2
+hsa04022	cGMP-PKG signaling pathway	5294	PIK3CG
+hsa04022	cGMP-PKG signaling pathway	7408	VASP
+hsa04022	cGMP-PKG signaling pathway	5594	MAPK1
+hsa04022	cGMP-PKG signaling pathway	5330	PLCB2
+hsa04024	cAMP signaling pathway	5732	PTGER2
+hsa04024	cAMP signaling pathway	2353	FOS
+hsa04024	cAMP signaling pathway	3725	JUN
+hsa04024	cAMP signaling pathway	4792	NFKBIA
+hsa04024	cAMP signaling pathway	2778	GNAS
+hsa04024	cAMP signaling pathway	483	ATP1B3
+hsa04024	cAMP signaling pathway	490	ATP2B1
+hsa04024	cAMP signaling pathway	493	ATP2B4
+hsa04024	cAMP signaling pathway	5140	PDE3B
+hsa04024	cAMP signaling pathway	5142	PDE4B
+hsa04024	cAMP signaling pathway	6237	RRAS
+hsa04024	cAMP signaling pathway	476	ATP1A1
+hsa04024	cAMP signaling pathway	387	RHOA
+hsa04024	cAMP signaling pathway	5293	PIK3CD
+hsa04024	cAMP signaling pathway	5295	PIK3R1
+hsa04024	cAMP signaling pathway	207	AKT1
+hsa04024	cAMP signaling pathway	5594	MAPK1
+hsa04024	cAMP signaling pathway	5567	PRKACB
+hsa04024	cAMP signaling pathway	5499	PPP1CA
+hsa04024	cAMP signaling pathway	5500	PPP1CB
+hsa04024	cAMP signaling pathway	1387	CREBBP
+hsa04024	cAMP signaling pathway	2033	EP300
+hsa04024	cAMP signaling pathway	2771	GNAI2
+hsa04024	cAMP signaling pathway	7074	TIAM1
+hsa04024	cAMP signaling pathway	7409	VAV1
+hsa04024	cAMP signaling pathway	5879	RAC1
+hsa04024	cAMP signaling pathway	5880	RAC2
+hsa04024	cAMP signaling pathway	805	CALM2
+hsa04024	cAMP signaling pathway	808	CALM3
+hsa04024	cAMP signaling pathway	6093	ROCK1
+hsa04024	cAMP signaling pathway	9475	ROCK2
+hsa04024	cAMP signaling pathway	4659	PPP1R12A
+hsa04066	HIF-1 signaling pathway	1978	EIF4EBP1
+hsa04066	HIF-1 signaling pathway	226	ALDOA
+hsa04066	HIF-1 signaling pathway	2023	ENO1
+hsa04066	HIF-1 signaling pathway	207	AKT1
+hsa04066	HIF-1 signaling pathway	2597	GAPDH
+hsa04066	HIF-1 signaling pathway	596	BCL2
+hsa04066	HIF-1 signaling pathway	1026	CDKN1A
+hsa04066	HIF-1 signaling pathway	1027	CDKN1B
+hsa04066	HIF-1 signaling pathway	5230	PGK1
+hsa04066	HIF-1 signaling pathway	5211	PFKL
+hsa04066	HIF-1 signaling pathway	3460	IFNGR2
+hsa04066	HIF-1 signaling pathway	3939	LDHA
+hsa04066	HIF-1 signaling pathway	3945	LDHB
+hsa04066	HIF-1 signaling pathway	2872	MKNK2
+hsa04066	HIF-1 signaling pathway	5293	PIK3CD
+hsa04066	HIF-1 signaling pathway	5295	PIK3R1
+hsa04066	HIF-1 signaling pathway	9978	RBX1
+hsa04066	HIF-1 signaling pathway	6921	ELOC
+hsa04066	HIF-1 signaling pathway	6923	ELOB
+hsa04066	HIF-1 signaling pathway	3101	HK3
+hsa04066	HIF-1 signaling pathway	3098	HK1
+hsa04066	HIF-1 signaling pathway	5579	PRKCB
+hsa04066	HIF-1 signaling pathway	5594	MAPK1
+hsa04066	HIF-1 signaling pathway	112398	EGLN2
+hsa04066	HIF-1 signaling pathway	1387	CREBBP
+hsa04066	HIF-1 signaling pathway	2033	EP300
+hsa04066	HIF-1 signaling pathway	1536	CYBB
+hsa04066	HIF-1 signaling pathway	3570	IL6R
+hsa04066	HIF-1 signaling pathway	7099	TLR4
+hsa04066	HIF-1 signaling pathway	7076	TIMP1
+hsa04066	HIF-1 signaling pathway	3091	HIF1A
+hsa04066	HIF-1 signaling pathway	3162	HMOX1
+hsa04066	HIF-1 signaling pathway	6194	RPS6
+hsa04068	FoxO signaling pathway	8698	S1PR4
+hsa04068	FoxO signaling pathway	3575	IL7R
+hsa04068	FoxO signaling pathway	10365	KLF2
+hsa04068	FoxO signaling pathway	4616	GADD45B
+hsa04068	FoxO signaling pathway	8743	TNFSF10
+hsa04068	FoxO signaling pathway	7048	TGFBR2
+hsa04068	FoxO signaling pathway	472	ATM
+hsa04068	FoxO signaling pathway	7040	TGFB1
+hsa04068	FoxO signaling pathway	3551	IKBKB
+hsa04068	FoxO signaling pathway	5728	PTEN
+hsa04068	FoxO signaling pathway	207	AKT1
+hsa04068	FoxO signaling pathway	6446	SGK1
+hsa04068	FoxO signaling pathway	894	CCND2
+hsa04068	FoxO signaling pathway	901	CCNG2
+hsa04068	FoxO signaling pathway	1032	CDKN2D
+hsa04068	FoxO signaling pathway	1026	CDKN1A
+hsa04068	FoxO signaling pathway	1027	CDKN1B
+hsa04068	FoxO signaling pathway	5934	RBL2
+hsa04068	FoxO signaling pathway	1387	CREBBP
+hsa04068	FoxO signaling pathway	2033	EP300
+hsa04068	FoxO signaling pathway	7874	USP7
+hsa04068	FoxO signaling pathway	6789	STK4
+hsa04068	FoxO signaling pathway	11337	GABARAP
+hsa04068	FoxO signaling pathway	23710	GABARAPL1
+hsa04068	FoxO signaling pathway	847	CAT
+hsa04068	FoxO signaling pathway	6648	SOD2
+hsa04068	FoxO signaling pathway	5293	PIK3CD
+hsa04068	FoxO signaling pathway	5295	PIK3R1
+hsa04068	FoxO signaling pathway	891	CCNB1
+hsa04068	FoxO signaling pathway	2308	FOXO1
+hsa04068	FoxO signaling pathway	2885	GRB2
+hsa04068	FoxO signaling pathway	8660	IRS2
+hsa04068	FoxO signaling pathway	5594	MAPK1
+hsa04068	FoxO signaling pathway	6655	SOS2
+hsa04068	FoxO signaling pathway	6654	SOS1
+hsa04150	mTOR signaling pathway	5594	MAPK1
+hsa04150	mTOR signaling pathway	6197	RPS6KA3
+hsa04150	mTOR signaling pathway	57600	FNIP2
+hsa04150	mTOR signaling pathway	6195	RPS6KA1
+hsa04150	mTOR signaling pathway	5295	PIK3R1
+hsa04150	mTOR signaling pathway	387	RHOA
+hsa04150	mTOR signaling pathway	5579	PRKCB
+hsa04150	mTOR signaling pathway	6446	SGK1
+hsa04150	mTOR signaling pathway	6249	CLIP1
+hsa04150	mTOR signaling pathway	9706	ULK2
+hsa04150	mTOR signaling pathway	1978	EIF4EBP1
+hsa04150	mTOR signaling pathway	5293	PIK3CD
+hsa04150	mTOR signaling pathway	5728	PTEN
+hsa04150	mTOR signaling pathway	207	AKT1
+hsa04150	mTOR signaling pathway	79109	MAPKAP1
+hsa04150	mTOR signaling pathway	253260	RICTOR
+hsa04150	mTOR signaling pathway	55615	PRR5
+hsa04150	mTOR signaling pathway	54541	DDIT4
+hsa04150	mTOR signaling pathway	1975	EIF4B
+hsa04150	mTOR signaling pathway	6194	RPS6
+hsa04150	mTOR signaling pathway	51719	CAB39
+hsa04150	mTOR signaling pathway	7124	TNF
+hsa04150	mTOR signaling pathway	3551	IKBKB
+hsa04150	mTOR signaling pathway	2885	GRB2
+hsa04150	mTOR signaling pathway	6654	SOS1
+hsa04150	mTOR signaling pathway	6655	SOS2
+hsa04150	mTOR signaling pathway	8140	SLC7A5
+hsa04150	mTOR signaling pathway	6520	SLC3A2
+hsa04150	mTOR signaling pathway	526	ATP6V1B2
+hsa04150	mTOR signaling pathway	9296	ATP6V1F
+hsa04150	mTOR signaling pathway	55004	LAMTOR1
+hsa04150	mTOR signaling pathway	28956	LAMTOR2
+hsa04150	mTOR signaling pathway	389541	LAMTOR4
+hsa04151	PI3K-Akt signaling pathway	207	AKT1
+hsa04151	PI3K-Akt signaling pathway	1441	CSF3R
+hsa04151	PI3K-Akt signaling pathway	3716	JAK1
+hsa04151	PI3K-Akt signaling pathway	3717	JAK2
+hsa04151	PI3K-Akt signaling pathway	6446	SGK1
+hsa04151	PI3K-Akt signaling pathway	1978	EIF4EBP1
+hsa04151	PI3K-Akt signaling pathway	1975	EIF4B
+hsa04151	PI3K-Akt signaling pathway	6194	RPS6
+hsa04151	PI3K-Akt signaling pathway	3676	ITGA4
+hsa04151	PI3K-Akt signaling pathway	3655	ITGA6
+hsa04151	PI3K-Akt signaling pathway	3688	ITGB1
+hsa04151	PI3K-Akt signaling pathway	3695	ITGB7
+hsa04151	PI3K-Akt signaling pathway	5293	PIK3CD
+hsa04151	PI3K-Akt signaling pathway	7057	THBS1
+hsa04151	PI3K-Akt signaling pathway	2782	GNB1
+hsa04151	PI3K-Akt signaling pathway	2783	GNB2
+hsa04151	PI3K-Akt signaling pathway	54331	GNG2
+hsa04151	PI3K-Akt signaling pathway	2787	GNG5
+hsa04151	PI3K-Akt signaling pathway	2788	GNG7
+hsa04151	PI3K-Akt signaling pathway	2790	GNG10
+hsa04151	PI3K-Akt signaling pathway	5294	PIK3CG
+hsa04151	PI3K-Akt signaling pathway	54541	DDIT4
+hsa04151	PI3K-Akt signaling pathway	2069	EREG
+hsa04151	PI3K-Akt signaling pathway	374	AREG
+hsa04151	PI3K-Akt signaling pathway	2323	FLT3LG
+hsa04151	PI3K-Akt signaling pathway	7423	VEGFB
+hsa04151	PI3K-Akt signaling pathway	1436	CSF1R
+hsa04151	PI3K-Akt signaling pathway	2322	FLT3
+hsa04151	PI3K-Akt signaling pathway	2885	GRB2
+hsa04151	PI3K-Akt signaling pathway	6654	SOS1
+hsa04151	PI3K-Akt signaling pathway	6655	SOS2
+hsa04151	PI3K-Akt signaling pathway	5295	PIK3R1
+hsa04151	PI3K-Akt signaling pathway	10161	LPAR6
+hsa04151	PI3K-Akt signaling pathway	3560	IL2RB
+hsa04151	PI3K-Akt signaling pathway	3561	IL2RG
+hsa04151	PI3K-Akt signaling pathway	3563	IL3RA
+hsa04151	PI3K-Akt signaling pathway	3570	IL6R
+hsa04151	PI3K-Akt signaling pathway	3566	IL4R
+hsa04151	PI3K-Akt signaling pathway	3575	IL7R
+hsa04151	PI3K-Akt signaling pathway	8115	TCL1A
+hsa04151	PI3K-Akt signaling pathway	1292	COL6A2
+hsa04151	PI3K-Akt signaling pathway	5527	PPP2R5C
+hsa04151	PI3K-Akt signaling pathway	5525	PPP2R5A
+hsa04151	PI3K-Akt signaling pathway	3320	HSP90AA1
+hsa04151	PI3K-Akt signaling pathway	3326	HSP90AB1
+hsa04151	PI3K-Akt signaling pathway	7184	HSP90B1
+hsa04151	PI3K-Akt signaling pathway	468	ATF4
+hsa04151	PI3K-Akt signaling pathway	4170	MCL1
+hsa04151	PI3K-Akt signaling pathway	6256	RXRA
+hsa04151	PI3K-Akt signaling pathway	4609	MYC
+hsa04151	PI3K-Akt signaling pathway	1026	CDKN1A
+hsa04151	PI3K-Akt signaling pathway	1027	CDKN1B
+hsa04151	PI3K-Akt signaling pathway	894	CCND2
+hsa04151	PI3K-Akt signaling pathway	896	CCND3
+hsa04151	PI3K-Akt signaling pathway	5934	RBL2
+hsa04151	PI3K-Akt signaling pathway	7534	YWHAZ
+hsa04151	PI3K-Akt signaling pathway	7529	YWHAB
+hsa04151	PI3K-Akt signaling pathway	10971	YWHAQ
+hsa04151	PI3K-Akt signaling pathway	7531	YWHAE
+hsa04151	PI3K-Akt signaling pathway	7533	YWHAH
+hsa04151	PI3K-Akt signaling pathway	596	BCL2
+hsa04151	PI3K-Akt signaling pathway	7099	TLR4
+hsa04151	PI3K-Akt signaling pathway	5879	RAC1
+hsa04151	PI3K-Akt signaling pathway	6850	SYK
+hsa04151	PI3K-Akt signaling pathway	118788	PIK3AP1
+hsa04151	PI3K-Akt signaling pathway	3551	IKBKB
+hsa04151	PI3K-Akt signaling pathway	5594	MAPK1
+hsa04151	PI3K-Akt signaling pathway	5728	PTEN
+hsa04152	AMPK signaling pathway	10645	CAMKK2
+hsa04152	AMPK signaling pathway	5211	PFKL
+hsa04152	AMPK signaling pathway	51094	ADIPOR1
+hsa04152	AMPK signaling pathway	51719	CAB39
+hsa04152	AMPK signaling pathway	1938	EEF2
+hsa04152	AMPK signaling pathway	2308	FOXO1
+hsa04152	AMPK signaling pathway	1374	CPT1A
+hsa04152	AMPK signaling pathway	207	AKT1
+hsa04152	AMPK signaling pathway	5527	PPP2R5C
+hsa04152	AMPK signaling pathway	5525	PPP2R5A
+hsa04152	AMPK signaling pathway	23216	TBC1D1
+hsa04152	AMPK signaling pathway	10890	RAB10
+hsa04152	AMPK signaling pathway	948	CD36
+hsa04152	AMPK signaling pathway	8660	IRS2
+hsa04152	AMPK signaling pathway	5293	PIK3CD
+hsa04152	AMPK signaling pathway	5295	PIK3R1
+hsa04152	AMPK signaling pathway	1978	EIF4EBP1
+hsa04340	Hedgehog signaling pathway	8452	CUL3
+hsa04340	Hedgehog signaling pathway	5567	PRKACB
+hsa04340	Hedgehog signaling pathway	1455	CSNK1G2
+hsa04340	Hedgehog signaling pathway	1453	CSNK1D
+hsa04340	Hedgehog signaling pathway	894	CCND2
+hsa04340	Hedgehog signaling pathway	596	BCL2
+hsa04350	TGF-beta signaling pathway	7057	THBS1
+hsa04350	TGF-beta signaling pathway	7040	TGFB1
+hsa04350	TGF-beta signaling pathway	2033	EP300
+hsa04350	TGF-beta signaling pathway	6667	SP1
+hsa04350	TGF-beta signaling pathway	7048	TGFBR2
+hsa04350	TGF-beta signaling pathway	387	RHOA
+hsa04350	TGF-beta signaling pathway	6093	ROCK1
+hsa04350	TGF-beta signaling pathway	656	BMP8B
+hsa04350	TGF-beta signaling pathway	3397	ID1
+hsa04350	TGF-beta signaling pathway	3398	ID2
+hsa04350	TGF-beta signaling pathway	1387	CREBBP
+hsa04350	TGF-beta signaling pathway	4609	MYC
+hsa04350	TGF-beta signaling pathway	6500	SKP1
+hsa04350	TGF-beta signaling pathway	5594	MAPK1
+hsa04350	TGF-beta signaling pathway	7124	TNF
+hsa04350	TGF-beta signaling pathway	9978	RBX1
+hsa04390	Hippo signaling pathway	894	CCND2
+hsa04390	Hippo signaling pathway	4609	MYC
+hsa04390	Hippo signaling pathway	7533	YWHAH
+hsa04390	Hippo signaling pathway	1495	CTNNA1
+hsa04390	Hippo signaling pathway	324	APC
+hsa04390	Hippo signaling pathway	7534	YWHAZ
+hsa04390	Hippo signaling pathway	6934	TCF7L2
+hsa04390	Hippo signaling pathway	51176	LEF1
+hsa04390	Hippo signaling pathway	11186	RASSF1
+hsa04390	Hippo signaling pathway	896	CCND3
+hsa04390	Hippo signaling pathway	6932	TCF7
+hsa04390	Hippo signaling pathway	60	ACTB
+hsa04390	Hippo signaling pathway	5499	PPP1CA
+hsa04390	Hippo signaling pathway	5500	PPP1CB
+hsa04390	Hippo signaling pathway	3993	LLGL2
+hsa04390	Hippo signaling pathway	7529	YWHAB
+hsa04390	Hippo signaling pathway	10971	YWHAQ
+hsa04390	Hippo signaling pathway	7531	YWHAE
+hsa04390	Hippo signaling pathway	374	AREG
+hsa04390	Hippo signaling pathway	332	BIRC5
+hsa04390	Hippo signaling pathway	7040	TGFB1
+hsa04390	Hippo signaling pathway	7048	TGFBR2
+hsa04390	Hippo signaling pathway	656	BMP8B
+hsa04390	Hippo signaling pathway	3689	ITGB2
+hsa04390	Hippo signaling pathway	1453	CSNK1D
+hsa04390	Hippo signaling pathway	3397	ID1
+hsa04390	Hippo signaling pathway	3398	ID2
+hsa04390	Hippo signaling pathway	71	ACTG1
+hsa04390	Hippo signaling pathway	330	BIRC3
