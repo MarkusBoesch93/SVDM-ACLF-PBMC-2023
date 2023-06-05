@@ -22,6 +22,7 @@
 **KEGG.txt** - File of KEGG genes for metabolic comparisons.
 
 # Raw Data Download
-The raw data can be downloaded from: [soon]
+The raw data can be downloaded from: [soon].
+
 The metadata can be extracted from the supplementary dataset
 
