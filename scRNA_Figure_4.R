@@ -8,7 +8,7 @@
 #4A
 Tcells$disease<-factor(x=Tcells$disease, levels = c("Healthy", "AD", "ACLF"))
 Tcells$ProgRec<-factor(x=Tcells$ProgRec, levels = c("H", "AD", "R", "NR"))
-Tcells$subcluster<-factor(x=Tcells$subcluster, levels = c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT"))
+Tcells$subcluster<-factor(x=Tcells$subcluster, levels = c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT"))
 
 DefaultAssay(Tcells)<-"RNA"
 Figure4A<-DimPlot(Tcells, reduction = "umap",  group.by = "subcluster", repel = F, label = F, label.size = 6, pt.size = 0.5, cols=colours_Tcells, order = T, shuffle = T)+ggtitle("")+FontSize(x.text = fontsize, y.text = fontsize, x.title = fontsize, y.title = fontsize, legend.text=element_text(size=fontsize), legend.title=element_text(size=fontsize ))+NoLegend()
@@ -25,10 +25,10 @@ table <- table[ order(as.numeric(row.names(table))), ]
 table.perc<-apply(table[],2,function (x){(x/sum(x))*100})
 table.perc.round<-as.data.frame(t(round(table.perc, digits = 2))) ##rounded number
 table.perc.round$patient<-rownames(table.perc.round)
-table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF","ACLF","ACLF")
+table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF","ACLF")
 table.perc.round$disease<-factor(table.perc.round$disease, levels = c("Healthy", "AD", "ACLF"))
 
-longer_table<-table.perc.round %>% tidyr::pivot_longer(cols =c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT"),  names_to = "Cluster", values_to = "Percentage")
+longer_table<-table.perc.round %>% tidyr::pivot_longer(cols =c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT"),  names_to = "Cluster", values_to = "Percentage")
 
 box_clusters_Tcells<-ggboxplot(longer_table, x="Cluster", y="Percentage", add = "jitter", color="disease", palette=colours_disease, ylim=c(0,60))+theme(axis.text.x = element_text(angle = 45, hjust=1), axis.title.x = element_blank())+FontSize(x.text = fontsize, y.text = fontsize, x.title = fontsize, y.title = fontsize, legend.text=element_text(size=fontsize), legend.title=element_text(size=fontsize ))+xlab("")+ylab("")
 
@@ -41,10 +41,10 @@ table <- table[ order(as.numeric(row.names(table))), ]
 table.perc<-apply(table[],2,function (x){(x/sum(x))*100})
 table.perc.round<-as.data.frame(t(round(table.perc, digits = 2))) ##rounded number
 table.perc.round$patient<-rownames(table.perc.round)
-table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF", "ACLF", "ACLF")
-table.perc.round$disease<-factor(table.perc.round$disease, levels = c("Healthy", "AD", "ACLF"))
+table.perc.round$disease<-c("ACLF-R","ACLF-NR","ACLF-NR","ACLF-R","ACLF-NR","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF-NR","ACLF-R","ACLF-R","ACLF-NR")
+table.perc.round$disease<-factor(table.perc.round$disease, levels = c("Healthy", "AD", "ACLF-R", "ACLF-NR"))
 
-longer_table<-table.perc.round %>% tidyr::pivot_longer(cols =c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT"),  names_to = "Cluster", values_to = "Percentage")
+longer_table<-table.perc.round %>% tidyr::pivot_longer(cols =c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT"),  names_to = "Cluster", values_to = "Percentage")
 
 box_clusters_Tcells_prog<-ggboxplot(longer_table, x="Cluster", y="Percentage", add = "jitter", color="disease", palette=colours_disease, ylim=c(0,70))+theme(axis.text.x = element_text(angle = 45, hjust=1), axis.title.x = element_blank())+FontSize(x.text = fontsize, y.text = fontsize, x.title = fontsize, y.title = fontsize, legend.text=element_text(size=fontsize), legend.title=element_text(size=fontsize ))+xlab("")+ylab("")
 ggsave(plot=box_clusters_Tcells_prog, filename="4D Percentage_Tcells_progRec.png" ,height=4, width=5, units="in", dpi=320)
@@ -61,7 +61,7 @@ ggsave(plot=box_clusters_Tcells, filename="4D Percentage_Tcells.svg" ,height=4, 
 ggsave(plot=box_clusters_Tcells2, filename="4D Percentage_Tcells_stats.svg" ,height=4, width=5, units="in", dpi=320)
 
 #4B CD4 Heatmap
-CD4_cells<-subset(Tcells, subset=subcluster %in% c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL"))
+CD4_cells<-subset(Tcells, subset=subcluster %in% c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG"))
 Idents(CD4_cells)<-CD4_cells$subcluster
 CD4_cells.markers <- FindAllMarkers(object = CD4_cells, assay = "RNA", only.pos = TRUE, min.pct = 0.25)
 top15<-CD4_cells.markers %>% group_by(cluster) %>% top_n(15, avg_log2FC)
@@ -101,7 +101,7 @@ cytotoxicity=list(c("PRF1", "IFNG", "GNLY", "NKG7", "GZMB", "GZMA", "GZMH", "KLR
 types=c(Activation_T, Apoptosis, Cytokines, S100, cytotoxicity)
 names=c("Activation_T", "Apoptosis", "Cytokines", "S100", "cytotoxicity")
 
-cells<-c("CD4_TEM", "CD4_CTL", "CD8_GZMK", "CD8_CTL")
+cells<-c("CD4_TEM", "CD8_GZMK", "CD8_CTL")
 for(i in 1:length(cells)){
   subc<-subset(Tcells, subset= (ProgRec %in% c("R", "NR") & subcluster ==cells[i] ))
   cellname<-cells[i]
@@ -155,7 +155,7 @@ colnames(b)=c('ID','Term','GeneID','Gene')
 term=unique(a$ID)
 uniqueb<-unique(b$ID)
 uniqueterm<-a[a$ID %in% uniqueb,]$ID
-cells_suba<-c("CD4_TN", "CD4_TCM","CD4_TEM", "CD4_CTL", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT")
+cells_suba<-c("CD4_TN", "CD4_TCM","CD4_TEM", "CD4_TREG", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT")
 
 suba<-subset(Tcells, subset=subcluster %in% cells_suba)
 suba$subcluster<-droplevels(suba$subcluster)
@@ -209,13 +209,13 @@ Cytokines=list(c("CCL2", "CCL3", "CCL4", "CCL5", "CSF1", "CSF2", "CXCL1", "CXCL1
 
 DefaultAssay(PBMC)<-"RNA"
 subc<-PBMC
-subc$subcluster<-factor(x=subc$subcluster, levels = c("cMon", "intMon", "ncMon", "cDC","CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT", "CD56low NK", "CD56high NK", "B cells", "Plasma cells", "pDC"))
+subc$subcluster<-factor(x=subc$subcluster, levels = c("cMon", "intMon", "ncMon", "cDC","CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG", "CD8_TN","CD8_GZMK", "CD8_CTL", "gd_T", "MAIT", "CD56low NK", "CD56high NK", "B cells", "Plasma cells", "pDC"))
 subc=AddModuleScore(object = subc, features = Cytokines,name = "Cytokines", assay = "RNA",ctrl = 10)
 Figure<-VlnPlot(subc, group.by= "subcluster",features = "Cytokines1" , assay = "RNA", cols = colours_allsub, pt.size=0)+theme(axis.title = element_blank(), axis.ticks = element_blank(), axis.text.x = element_blank(), plot.title = element_blank())+NoLegend()
 ggsave(plot=Figure, filename=paste(getwd(),"/S4F_cytokine_score_allPBMC_Violin.svg", sep = "") ,height=4, width=6, units="in", dpi=320)
 #S4D miloR
 #for CD4 Tcells
-CD4_cells<-subset(Tcells, subset=subcluster %in% c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL"))
+CD4_cells<-subset(Tcells, subset=subcluster %in% c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG"))
 CD4_cells@meta.data$subcluster <- droplevels(CD4_cells@meta.data$subcluster)
 sub<-CD4_cells
 Idents(sub)<-sub$subcluster
@@ -235,7 +235,7 @@ MILO_obj <- buildGraph(MILO_obj, k = 30, d = 30, reduced.dim = "PCA")
 MILO_obj <- makeNhoods(MILO_obj, prop = 0.2, k = 30, d=30, refined = TRUE, reduced_dims = "PCA")
 plotNhoodSizeHist(MILO_obj) ##need distribution peak betwwen 50 and 100, otherwise up k and lower prop
 MILO_obj <- countCells(MILO_obj, meta.data = data.frame(colData(MILO_obj)), sample="orig.ident")
-MILO_obj <- calcNhoodDistance(MILO_obj, d=25, reduced.dim = "PCA") #~5min
+MILO_obj <- calcNhoodDistance(MILO_obj, d=30, reduced.dim = "PCA") #~5min
 milo.design <- as.data.frame(xtabs(~disease + orig.ident, data=data.frame(colData(MILO_obj))))
 milo.design <- milo.design[milo.design$Freq > 0, ]
 rownames(milo.design) <- milo.design$orig.ident
@@ -243,7 +243,7 @@ milo.design <- milo.design[colnames(nhoodCounts(MILO_obj)),]
 milo.res <- testNhoods(MILO_obj, design=~disease, design.df=milo.design)
 MILO_obj <- buildNhoodGraph(MILO_obj)
 milo.res <- annotateNhoods(MILO_obj, milo.res, coldata_col = "subcluster")##change to metadata
-milo.res$subcluster<-factor(x=milo.res$subcluster, levels = c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_CTL"))
+milo.res$subcluster<-factor(x=milo.res$subcluster, levels = c("CD4_TN", "CD4_TCM","CD4_TEM","CD4_TREG"))
 milo_plot<-plotDAbeeswarm(milo.res, group.by = "subcluster", alpha = 0.05)+xlab("")+FontSize(x.text = fontsize, y.text = fontsize, x.title = fontsize, y.title = fontsize,legend.text=element_text(size=fontsize), legend.title=element_text(size=fontsize )) 
 
 ggsave(plot=milo_plot, filename="S4B milo_plot_CD4_0_05.svg" ,height=5, width=6, units="in", dpi=320)
@@ -269,7 +269,7 @@ MILO_obj <- buildGraph(MILO_obj, k = 30, d = 30, reduced.dim = "PCA")
 MILO_obj <- makeNhoods(MILO_obj, prop = 0.2, k = 30, d=30, refined = TRUE, reduced_dims = "PCA")
 plotNhoodSizeHist(MILO_obj) ##need distribution peak betwwen 50 and 100, otherwise up k and lower prop
 MILO_obj <- countCells(MILO_obj, meta.data = data.frame(colData(MILO_obj)), sample="orig.ident")
-MILO_obj <- calcNhoodDistance(MILO_obj, d=25, reduced.dim = "PCA") #~5min
+MILO_obj <- calcNhoodDistance(MILO_obj, d=30, reduced.dim = "PCA") #~5min
 milo.design <- as.data.frame(xtabs(~disease + orig.ident, data=data.frame(colData(MILO_obj))))
 milo.design <- milo.design[milo.design$Freq > 0, ]
 rownames(milo.design) <- milo.design$orig.ident
@@ -304,7 +304,7 @@ table <- table[ order(as.numeric(row.names(table))), ]
 table.perc<-apply(table[],2,function (x){(x/sum(x))*100})
 table.perc.round<-as.data.frame(t(round(table.perc, digits = 2))) ##rounded number
 table.perc.round$patient<-rownames(table.perc.round)
-table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF","ACLF","ACLF")
+table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF","ACLF")
 table.perc.round$disease<-factor(table.perc.round$disease, levels = c("Healthy", "AD", "ACLF"))
 
 longer_table<-table.perc.round %>% tidyr::pivot_longer(cols =c("B cells", "Plasma cells"),  names_to = "Cluster", values_to = "Percentage")
@@ -404,7 +404,7 @@ table <- table[ order(as.numeric(row.names(table))), ]
 table.perc<-apply(table[],2,function (x){(x/sum(x))*100})
 table.perc.round<-as.data.frame(t(round(table.perc, digits = 2))) ##rounded number
 table.perc.round$patient<-rownames(table.perc.round)
-table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF","ACLF","ACLF")
+table.perc.round$disease<-c("ACLF","ACLF","ACLF","ACLF","ACLF","AD","AD","AD", "Healthy","Healthy","Healthy","ACLF","ACLF","ACLF","ACLF")
 table.perc.round$disease<-factor(table.perc.round$disease, levels = c("Healthy", "AD", "ACLF"))
 
 longer_table<-table.perc.round %>% tidyr::pivot_longer(cols =c("CD56low NK", "CD56high NK"),  names_to = "Cluster", values_to = "Percentage")
