@@ -1,7 +1,8 @@
 # Single cell transcriptomics identifies an immunometabolic monocyte signature that distinguishes recovery from non-recovery in Acute-on-Chronic Liver Failure
 ## **Link** : [soon]
 ## Please cite : Feio-Azevedo R et al., Single cell transcriptomics identifies an immunometabolic monocyte signature that distinguishes recovery from non-recovery in Acute-on-Chronic Liver Failure.  (xxxx) <br/>
-![](Abstract.png)
+
+![](https://github.com/MarkusBoesch93/SVDM-ACLF-PBMC-2023/blob/1df71586348a5ab92a20dccda5b4ca19debc522f/Graphical%20Abstract.png)
 
 # Brief Descriptions of Analysis Scripts
 **scRNA_prep** - General setup to reproduce the Figures and analysis.
