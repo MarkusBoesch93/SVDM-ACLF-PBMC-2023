@@ -2,7 +2,7 @@
 ## **Link** : [soon]
 ## Please cite : Feio-Azevedo R et al., Distinct immunometabolic signatures in circulating immune cells define disease outcome in acute-on-chronic liver failure.  (2024) <br/>
 
-![](https://github.com/MarkusBoesch93/SVDM-ACLF-PBMC-2023/blob/1df71586348a5ab92a20dccda5b4ca19debc522f/Graphical%20Abstract.png)
+![](https://github.com/MarkusBoesch93/SVDM-ACLF-PBMC-2023/blob/bf014874325ddfa50b6010432daed3f5dd23e5d4/Graphical%20Abstract.PNG)
 
 # Brief Descriptions of Analysis Scripts
 **scRNA_prep** - General setup to reproduce the Figures and analysis.
