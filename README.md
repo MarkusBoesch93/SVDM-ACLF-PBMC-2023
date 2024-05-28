@@ -1,4 +1,4 @@
-# Single cell transcriptomics identifies an immunometabolic monocyte signature that distinguishes recovery from non-recovery in Acute-on-Chronic Liver Failure
+# Distinct immunometabolic signatures in circulating immune cells define disease outcome in acute-on-chronic liver failure.
 ## **Link** : [soon]
 ## Please cite : Feio-Azevedo R et al., Distinct immunometabolic signatures in circulating immune cells define disease outcome in acute-on-chronic liver failure.  (2024) <br/>
 
