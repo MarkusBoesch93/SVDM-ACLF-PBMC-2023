@@ -1,5 +1,5 @@
 # Distinct immunometabolic signatures in circulating immune cells define disease outcome in acute-on-chronic liver failure.
-## **Link** : [soon]
+## [Link](https://journals.lww.com/hep/fulltext/9900/distinct_immunometabolic_signatures_in_circulating.882.aspx)
 ## Please cite : Feio-Azevedo R et al., Distinct immunometabolic signatures in circulating immune cells define disease outcome in acute-on-chronic liver failure.  (2024) <br/>
 
 ![](https://github.com/MarkusBoesch93/SVDM-ACLF-PBMC-2023/blob/bf014874325ddfa50b6010432daed3f5dd23e5d4/Graphical%20Abstract.PNG)
